@@ -1,15 +1,25 @@
-public class Address {
+public class Address extends Passenger{
 String street;
 String city;
 String state;
 
- public String getAddressDetails()
+    Address(String street, String city, String state)
+    {
+        this.street=street;
+        this.city=city;
+        this.state=state;
+        return;
+    }
+
+ private String getAddressDetails()
  {
     return street + "," + city + "," + state;
  }
- public void updateAddressDetails(String addressDetails)
+ void updateAddressDetails(String street, String city, String state)
  {
-
+     this.street =street;
+     this.state =state;
+     this.city =city;
  }
 
 

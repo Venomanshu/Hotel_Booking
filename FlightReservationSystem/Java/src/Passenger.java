@@ -3,11 +3,11 @@ public class Passenger {
     Address address;
     Contact contact;
 
-    public Contact getContact() {
+    Contact getContact() {
         return contact;
     }
 
-    public Address getAddress()
+    Address getAddress()
     {
         return address;
     }

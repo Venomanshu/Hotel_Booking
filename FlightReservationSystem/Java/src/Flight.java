@@ -1,4 +1,4 @@
-public class Flight
+public class Flight extends Ticket
 {
     String flightNumber;
     String airlineName;

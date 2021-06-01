@@ -1,4 +1,4 @@
-public class TouristTicket
+public class TouristTicket extends Flight
 {
     String hotelAddress;
     String selectedTouristLocation;

@@ -1,4 +1,4 @@
-public class RegularTicket
+public class RegularTicket extends Flight
 {
     String specialService;
 
@@ -9,6 +9,6 @@ public class RegularTicket
 
     public void updateSpecialServices(String Services)
     {
-
+        this.specialService =specialService;
     }
 }
